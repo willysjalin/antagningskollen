@@ -1,0 +1,27 @@
+header {
+    background-color: #FEFAE0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    padding: 16px;
+}
+body {
+    background-color: #FAEDCD;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
