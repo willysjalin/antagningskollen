@@ -1,27 +1,45 @@
 header {
     background-color: #FEFAE0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+    overflow: hidden;
 }
 
-main {
-    padding: 16px;
+header a {
+    float: inline-start;
+    text-decoration: none;
+}
+
+a {
+    font-size: 1.4rem;
+}
+.nav-line {
+    margin-top: 0;
+}
+
+.topnav-right {
+    float: inline-end;
+}
+
+.topnav-right a {
+    margin-inline-end: 20px;
 }
 body {
     background-color: #FAEDCD;
+    line-height: 1.6;
+    margin: 0;
     overflow: hidden;
 }
 
 h1 {
     text-align: center;
-    
 }
 
+.copyright-paragraph {
+    margin-block: 0;
+}
 footer {
     position: fixed;
-    left: 0;
+    margin-inline: 4%;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
 }
