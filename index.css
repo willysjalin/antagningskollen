@@ -1,6 +1,17 @@
+* {
+    
+}
+
+html {
+    overscroll-behavior: none;
+}
+
 header {
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: #FEFAE0;
-    overflow: hidden;
+    
 }
 
 header a {
@@ -12,7 +23,8 @@ a {
     font-size: 1.4rem;
 }
 .nav-line {
-    margin-top: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .topnav-right {
@@ -22,11 +34,13 @@ a {
 .topnav-right a {
     margin-inline-end: 20px;
 }
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #FAEDCD;
     line-height: 1.6;
     margin: 0;
-    overflow: hidden;
 }
 
 h1 {
@@ -36,10 +50,11 @@ h1 {
 .copyright-paragraph {
     margin-block: 0;
 }
+
+main {
+    min-height: 85dvh;
+}
 footer {
-    position: fixed;
+    position: relative;
     margin-inline: 4%;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
